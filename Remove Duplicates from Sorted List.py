@@ -8,3 +8,12 @@ class Solution:
     # @param {ListNode} head
     # @return {ListNode}
     def deleteDuplicates(self, head):
+    	p = head
+    	while p:
+    		if not p.next break
+    		if p.val == p.next.val:
+    			p.next = p.next.next
+    		else:
+    			p = p.next
+
+    	return head			
